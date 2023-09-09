@@ -1,0 +1,39 @@
+.in-faq-section-4 {
+	z-index: 1;
+	padding-top: 125px;
+	&:before {
+		top: 0;
+		left: 0;
+		content: '';
+		z-index: -1;
+		width: 100%;
+		height: 670px;
+		position: absolute;
+		background-color: #faf9f9;
+	}
+}
+.in-faq-img-4 {
+	padding-top: 58px;
+	.faq-circle {
+		left: 0;
+		top: 40%;
+		right: 0;
+		margin: 0 auto;
+		text-align: center;
+		-webkit-animation-name: spin;
+		animation-name: spin;
+		-webkit-animation-duration: 5000ms;
+		animation-duration: 5000ms;
+		-webkit-animation-iteration-count: infinite;
+		animation-iteration-count: infinite;
+		-webkit-animation-timing-function: linear;
+		animation-timing-function: linear;
+		transform: translateY(-50%);
+	}
+}
+.in-faq-accordion-area-4 {
+	padding-left: 50px;
+	.in-why-choose-faq {
+		margin-top: 0;
+	}
+}

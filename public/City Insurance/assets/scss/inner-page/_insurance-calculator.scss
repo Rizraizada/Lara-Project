@@ -1,0 +1,45 @@
+.in-insurance-calculator-section {
+	padding: 120px 0px;
+}
+.in-insurance-calculator-content {
+	.in-get-quote-btn {
+		margin-top: 0;
+	}
+	.in-insurance-calculator-img {
+		top: 0;
+		right: 0;
+	}
+}
+.in-insurance-calculator-text {
+	max-width: 400px;
+	padding-top: 50px;
+	padding-left: 20px;
+	.in-insurance-calculator-title {
+		margin-bottom: 20px;
+		h3 {
+			font-size: 28px;
+			font-weight: 700;
+			padding-bottom: 5px;
+			color: var(--main-color);
+		}
+		p {
+			font-weight: 700;
+			color: var(--black-color);
+		}
+	}
+	.in-insurance-category {
+		margin-bottom: 50px;
+		.insurance-price {
+			font-size: 40px;
+			margin-top: 15px;
+			font-weight: 700;
+			padding-bottom: 15px;
+			color: var(--main-color);
+			border-bottom: 2px solid #eaeaea;
+			sub {
+				bottom: 0;
+				font-size: 18px;
+			}
+		}
+	}
+}

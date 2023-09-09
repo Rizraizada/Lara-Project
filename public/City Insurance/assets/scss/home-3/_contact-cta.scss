@@ -1,0 +1,21 @@
+.in-cta-contact-section {
+	overflow: hidden;
+	padding: 120px 0px 130px;
+	border-top-left-radius: 120px;
+	background-attachment: fixed;
+	.in-cta-info-2 {
+		max-width: 50%;
+		border-radius: 0;
+		padding: 40px 45px 30px;
+	}
+	.in-cta-info-2 .in-cta-info-item .inner-text h3,
+	.in-cta-info-2 .in-cta-info-item .inner-text {
+		font-weight: 700;
+	}
+}
+.in-cta-contact-content-3 {
+	.in-video-play-btn {
+		left: auto;
+		right: 255px;
+	}
+}

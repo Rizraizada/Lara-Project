@@ -1,0 +1,59 @@
+.in-sv-faq-section {
+	padding: 120px 0px 100px;
+}
+.in-sv-faq-content-area {
+	width: 100%;
+	max-width: 520px;
+	.in-sv-section-title {
+		max-width: 440px;
+	}
+}
+.in-sv-faq-accordion {
+	margin-top: 50px;
+	.accordion-header {
+		button {
+			border: none;
+			font-size: 18px;
+			font-weight: 600;
+			padding: 20px 0px;
+			background: transparent;
+			color: var(--black-color);
+			font-family: var(--sv-heading-font);
+		}
+	}
+	.accordion-button:focus {
+		border: none;
+		outline: none;
+		box-shadow: none;
+	}
+	.accordion-item {
+		border: none;
+		margin-bottom: 20px;
+		border-top: 1px solid #dbdcdd;
+		border-bottom: 1px solid #dbdcdd;
+		background-color: transparent;
+	}
+	.accordion-body {
+		padding: 20px 0px;
+		color: var(--black-color);
+	}
+	.accordion-button:not(.collapsed) {
+		color: #010101;
+		box-shadow: none;
+	}
+	.accordion-button::after {
+		right: 25px;
+		height: auto;
+		width: auto;
+		font-size: 15px;
+		content: '\f078';
+		font-weight: 900;
+		position: absolute;
+		background-image: none;
+		font-family: 'Font Awesome 5 Pro';
+	}
+	.accordion-button:not(.collapsed)::after {
+		content: '\f068';
+		color: var(--base-sv-color);
+	}
+}

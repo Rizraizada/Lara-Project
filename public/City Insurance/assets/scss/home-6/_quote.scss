@@ -1,0 +1,117 @@
+.ins-insurance-quote-section {
+	padding: 100px 130px 115px;
+}
+.ins-insurance-quote-area {
+	padding: 150px 0px 125px;
+	background-color: #fefaf7;
+	.top-shape {
+		&:before {
+			left: 0;
+			right: 0;
+			top: -50px;
+			content: '';
+			width: 70%;
+			height: 50px;
+			margin: 0 auto;
+			position: absolute;
+			background-color: #fff;
+			border-top-left-radius: 24px;
+			border-top-right-radius: 24px;
+		}
+		&:after {
+			left: 0;
+			right: 0;
+			top: -38px;
+			font-size: 20px;
+			content: '\f004';
+			font-weight: 900;
+			text-align: center;
+			position: absolute;
+			color: var(--theme-color-2);
+			font-family: 'Font Awesome 5 Pro';
+		}
+	}
+	.ins-quote-title {
+		font-size: 42px;
+		font-weight: 500;
+		padding-bottom: 40px;
+		color: var(--theme-color);
+	}
+}
+.ins-insurance-quote-form {
+	border-radius: 24px;
+	background-color: #fff;
+	padding: 40px 60px 55px;
+	box-shadow: 0px 4px 33px 0px #00000005;
+	.quote-form-area {
+		margin: 0 auto;
+		max-width: 470px;
+		input {
+			width: 100%;
+			height: 75px;
+			color: #484745;
+			padding-left: 30px;
+			border-radius: 4px;
+			margin-bottom: 40px;
+			border: 1px solid #EDEDED;
+			&::placeholder {
+				color: #484745;
+				font-family: 'Syne', sans-serif;
+			}
+		}
+		button {
+			color: #fff;
+			width: 100%;
+			height: 70px;
+			border: none;
+			font-size: 18px;
+			font-weight: 500;
+			border-radius: 56px;
+			transition: 500ms all ease;
+			font-family: 'Syne', sans-serif;
+			background-color: var(--theme-color-2);
+			i {
+				margin-left: 15px;
+			}
+			&:hover {
+				background-color: var(--theme-color);
+			}
+		}
+	}
+}
+.ins-insurance-quote-calculator {
+	border-radius: 24px;
+	padding: 40px 60px 55px;
+	background-color: #F2F7F6;
+	.ins-quote-title { 
+		padding-bottom: 25px;
+	}
+	&.top-shape {
+		&:before {
+			background-color: #F2F7F6;
+		}
+		&:after {
+			color: var(--theme-color);
+		}
+	}
+	.ins-calculator-btn {
+		margin-top: 15px;
+		a {
+			width: 100%;
+			font-weight: 500;
+			border-radius: 56px;
+			display: inline-block;
+			background-color: #fff;
+			padding: 26px 15px 23px;
+			color: var(--theme-color);
+			font-family: 'Syne', sans-serif;
+			i {
+				margin-left: 15px;
+			}
+			&:hover {
+				color: #fff;
+				background-color: var(--theme-color);
+			}
+		}
+	}
+}

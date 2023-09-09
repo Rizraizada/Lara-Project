@@ -1,0 +1,21 @@
+.in-portfolio-section-3 {
+	overflow: hidden;
+	padding: 130px 45px 120px;
+}
+.in-portfolio-content-3 {
+	.in-portfolio-item .inner-text {
+		transition-delay: 0s;
+	}
+}
+.in-portfolio-content-3 {
+	.in-slider-item.slick-slide {
+		&:nth-child(even) {
+			transform: translateY(-30px);
+		}
+	}
+}
+.in-portfolio-slider-3 {
+	.slick-list {
+		padding-top: 30px;
+	}
+}

@@ -1,0 +1,326 @@
+@media screen and (max-width: 1630px) { 
+	.in-sv-header-section .in-sv-main-navigation-area li {
+		margin: 0px 30px;
+	}
+	.in-sv-service-item-2 {
+		padding: 220px 60px 55px 30px;
+	}
+}
+@media screen and (max-width: 1500px) { 
+	.in-sv-service-item-2 {
+		padding: 210px 60px 55px 30px;
+	}
+	.in-sv-service-item-2 .in-sv-service-img {
+		top: 0;
+	}
+	.in-sv-service-item-2:hover .in-sv-service-text {
+		transform: translateY(0);
+	}
+	.in-sv-header-cta-btn-grp .in-sv-header-search button,
+	.in-sv-header-cta-btn-grp .in-sv-header-sidebar button {
+		margin-left: 25px;
+	}
+	.in-sv-header-cta-btn-grp .in-sv-header-sidebar button:before {
+		left: -15px;
+	}
+	.in-sv-header-main-navigation {
+		padding: 22px 15px 22px 355px;
+	}
+	.in-sv-header-top-content {
+		padding: 0px 15px 0px 355px;
+	}
+
+}
+@media screen and (max-width: 1440px) { 
+	.in-sv-header-logo .brand-logo:before {
+		right: -44px;
+	}
+	.in-sv-header-section .in-sv-main-navigation-area li {
+		margin: 0px 22px;
+	}
+	.in-sv-header-cta-btn-grp .in-sv-cta-btn a {
+		font-size: 14px;
+		font-weight: 500;
+		padding: 15px 20px;
+	}
+	.in-sv-header-cta-btn-grp .in-sv-cta-btn {
+		margin-left: 20px;
+	}
+	.in-sv-quote-content .in-sv-quote-img2 {
+		right: 0;
+	}
+	.in-sv-footer-cta-content:before, .in-sv-footer-cta-content:after {
+		display: none;
+	}
+	.in-sv-service-item-2 {
+		padding: 165px 60px 55px 30px;
+	}
+	.in-sv-happy-client-area {
+		left: 0;
+	}
+}
+@media screen and (max-width: 1340px) { 
+	.in-sv-header-logo .brand-logo {
+		width: 225px;
+	}
+	.in-sv-header-logo .brand-logo:after {
+		display: none;
+	}
+	.in-sv-header-main-navigation {
+		padding: 22px 15px 22px 300px;
+
+	}
+	.in-sv-header-top-content {
+		padding: 0px 15px 0px 300px;
+	}
+
+}
+@media screen and (max-width: 1200px) { 
+	.in-sv-service-item-2 {
+		overflow: hidden;
+	}
+	.in-sv-about-text-area {
+		padding-left: 0;
+	}
+	.in-sv-service-top-content {
+		flex-wrap: wrap;
+	}
+	.in-sv-header-top-content {
+		display: none !important;
+	}
+	.in-sv-header-logo .brand-logo:before {
+		display: none;
+	}
+	.in-sv-header-logo .brand-logo {
+		width: 160px;
+		padding: 20px;
+	}
+	.in-sv-header-logo .brand-logo {
+		height: 90px;
+	}
+	.in-sv-header-main-navigation {
+		padding: 22px 15px 22px 200px;
+	}
+	.in-sv-header-section .in-sv-main-navigation-area li {
+		margin: 0px 20px;
+	}
+	.in-sv-header-section .in-sv-main-navigation-area li a {
+		font-size: 14px;
+	}
+	.in-sv-header-cta-btn-grp .in-sv-cta-btn a {
+		padding: 12px 20px;
+	}
+	.in-sv-carousel {
+		.carousel_nav {
+			display: flex;
+			button {
+				margin-right: 8px;
+			}
+		}
+	}
+	.in-sv-team-testimonial-section .in-sv-team-carousel {
+		display: flex;
+		position: static;
+		justify-content: end;
+	}
+	.in-sv-team-carousel .in-sv-carousel {
+		margin-top: 0;
+	}
+	.in-sv-footer-cta-content .in-sv-cta-img {
+		right: 0;
+	}
+	.in-sv-quote-content .in-sv-quote-img1 {
+		right: 0;
+	}
+}
+@media screen and (max-width: 1024px) {  
+	.in-sv-header-section .in-sv-main-navigation-area li {
+		margin: 0px 15px;
+	}
+	.in-sv-header-cta-btn-grp .in-sv-header-search button, .in-sv-header-cta-btn-grp .in-sv-header-sidebar button {
+		margin-left: 15px;
+	}
+	.in-sv-header-cta-btn-grp .in-sv-header-sidebar button:before {
+		display: none;
+	}
+	.in-sv-section-title h2 {
+		font-size: 36px;
+	}
+	.in-sv-testimonial-content h3 {
+		font-size: 26px;
+	}
+	.in-sv-testimonial-content h3 {
+		padding-bottom: 20px;
+	}
+	.in-sv-service-top-content .in-sv-title-text {
+		padding-top: 25px;
+	}
+}
+@media screen and (max-width: 991px) {  
+	.in-sv-insurance-type-section {
+		top: 0;
+		margin-bottom: 0;
+	}
+	.in-sv-header-menu {
+		display: none;
+	}
+	.in-sv-header-main-navigation {
+		justify-content: end !important;
+	}
+	
+	.in-sv-header-logo .brand-logo {
+		right: 0;
+		height: 80px;
+		margin: 0 auto;
+	}
+	.in-sv-header-main-navigation {
+		padding: 17px 15px 17px 200px;
+	}
+	.in-sv-header-cta-btn-grp .in-sv-header-search,
+	.in-sv-header-cta-btn-grp .in-sv-header-sidebar {
+		display: none;
+	}
+	.in-sv-header-cta-btn-grp .in-sv-cta-btn {
+		margin-right: 40px;
+	}
+	.in-sv-header-section .mobile_menu_button {
+		right: 15px;
+		top: -57px;
+		display: block;
+		color: var(--main-sv-color);
+	}
+	.in-sv-header-section  .mobile_menu .dropdown {
+		position: relative !important;
+	}
+	.in-sv-about-img-area {
+		margin:  0 auto;
+		max-width: 570px;
+		margin-bottom: 50px;
+	}
+	.in-sv-about-text-area {
+		max-width: 570px;
+		margin: 0 auto;
+	}
+	.in-sv-counter-item {
+		margin-bottom: 20px;
+	}
+	.in-sv-counter-item:before {
+		display: none;
+	}
+	.in-sv-quote-content .in-sv-quote-img1,
+	.in-sv-quote-content .in-sv-quote-img2,
+	.in-sv-quote-content .in-sv-quote-img3 {
+		display: none;
+	}
+	.in-sv-quote-form-wrapper {
+		margin: 0 auto;
+	}
+	.in-sv-team-content {
+		padding-left: 0;
+		margin-top: 50px;
+	}
+	.in-sv-team-testimonial-section .in-sv-team-carousel {
+		margin-top: 40px;
+		justify-content: center;
+	}
+	.in-sv-footer-widget .menu-widget {
+		padding-left: 0;
+	}
+	.in-sv-footer-widget {
+		margin-bottom: 40px;
+	}
+	.in-sv-footer-content {
+		padding-bottom: 40px;
+	}
+}
+@media screen and (max-width: 820px) {  
+	.in-sv-footer-cta-content .in-sv-cta-img {
+		display: none;
+	}
+}
+@media screen and (max-width: 680px) {  
+	.in-sv-service-item {
+		margin: 0 auto;
+	}
+	.in-sv-cta-text h2 {
+		font-size: 30px;
+		padding-bottom: 30px;
+	}
+	.in-sv-cta-content {
+		flex-wrap: wrap;
+	}
+}
+@media screen and (max-width: 480px) {  
+	.in-sv-insurance-type-item {
+		padding: 50px 20px 45px
+	}
+	.in-sv-section-title h2 {
+		font-size: 28px;
+	}
+	.in-sv-service-section {
+		padding: 60px 0px;
+	}
+	.in-sv-service-content {
+		padding-bottom: 60px;
+	}
+	.in-sv-about-section {
+		padding: 60px 0px;
+	}
+	.in-sv-about-img-area .in-sv-about-img2 {
+		display: none;
+	}
+	.in-sv-about-btn-cta {
+		flex-wrap: wrap;
+	}
+	.in-sv-about-btn-cta .in-sv-about-cta  {
+		margin-top: 20px;
+	}
+	.in-sv-service-section-2 .in-sv-service-content-2 {
+		margin-top: 30px;
+	}
+	.in-sv-service-section-3 {
+		padding-top: 60px;
+	}
+	.in-sv-service-counter {
+		margin-top: 60px;
+	}
+	.in-sv-counter-item h3 {
+		font-size: 30px;
+	}
+	.in-sv-quote-section {
+		padding: 60px 0px;
+	}
+	.in-sv-faq-section {
+		padding: 60px 0px 40px;
+	}
+	.in-sv-footer-cta-content h3 {
+		font-size: 30px;
+	}
+	.in-sv-footer-cta-content {
+		padding: 50px 30px;
+	}
+	.in-sv-insurance-type-item .in-sv-insurance-type-text h3 {
+		font-size: 18px;
+	}
+	.in-sv-contact-form-title-area .form-title h3 {
+		font-size: 24px;
+	}
+	.in-sv-testimonial-content .in-sv-testimonial-item {
+		padding: 0px 30px 40px 30px;
+	}
+	.in-sv-testimonial-content .in-sv-testi-icon-title {
+		padding: 30px 30px 0px;
+	}
+}
+@media screen and (max-width: 380px) {  
+	.in-sv-header-logo .brand-logo {
+		height: 75px;
+		width: 130px;
+	}
+	.in-sv-header-main-navigation {
+		padding: 14px 15px 14px 130px;
+	}
+	.in-sv-cta-text h2 {
+		font-size: 28px;
+	}
+}

@@ -1,0 +1,78 @@
+.in-why-choose-section-2 {
+	padding: 120px 0px 100px;
+}
+.in-why-choose-img-text {
+	max-width: 470px;
+	margin-top: 40px;
+}
+.in-why-choose-img {
+	margin-bottom: 40px;
+}
+.in-why-choose-img-area {
+	padding-bottom: 35px;
+	margin-bottom: 50px;
+	border-bottom: 1px solid #dcdcde;
+}
+.in-why-choose-text-wrap {
+	.in-why-choose-text {
+		margin-bottom: 15px;
+		.inner-icon {
+			margin-right: 12px;
+		}
+		.inner-text {
+			font-weight: 700;
+			padding-top: 5px;
+			color: var(--black-color);
+		}
+	}
+}
+.in-why-choose-faq {
+	margin-top: 40px;
+	.accordion-header {
+		button {
+			color: var(--black-color);
+			font-size: 18px;
+			font-weight: 600;
+			background: #fff;
+			padding: 20px 30px;
+			border: none;
+		}
+	}
+	.accordion-button:focus {
+		border: none;
+		outline: none;
+		box-shadow: none;
+	}
+	.accordion-item {
+		border: none;
+		border-radius: 5px;
+		margin-bottom: 20px;
+		border: 1px solid #ebebeb;
+		background: var(--base-color);
+	}
+	.accordion-body {
+		background-color: #fff;
+		padding: 20px 30px 30px;
+		color: var(--black-color);
+	}
+	.accordion-button:not(.collapsed) {
+		color: #fff;
+		box-shadow: none;
+		border-radius: 3px;
+		background-color: var(--base-color);
+	}
+	.accordion-button::after {
+		right: 25px;
+		height: auto;
+		width: auto;
+		font-size: 15px;
+		content: '\f078';
+		font-weight: 900;
+		position: absolute;
+		background-image: none;
+		font-family: 'Font Awesome 5 Pro';
+	}
+	.accordion-button:not(.collapsed)::after {
+		content: '\f068';
+	}
+}

@@ -1,0 +1,264 @@
+.ins-social-content .ins-social-item {
+	width: 16.667%;
+}
+.ins-social-content .ins-social-item a {
+	height: 105px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	font-size: 20px;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	font-family: 'Syne', sans-serif;
+	border-right: 1px solid #D9D9D9;
+	border-top: 1px solid #D9D9D9;
+	img {
+		margin-right: 15px;
+	}
+}
+.ins-footer-section {
+	padding-top: 80px;
+	background-color: #FDF7F2;
+	.ins-footer-shape1 {
+		left: 0;
+		top: 120px;
+	}
+	.ins-footer-shape2 {
+		left: 0;
+		bottom: 0;
+	}
+}
+.ins-footer-logo-newslatter {
+	padding-bottom: 60px;
+	.ins-footer-email {
+		color: #0F0F2D;
+		font-size: 26px;
+		font-family: var(--meta-font);
+	}
+	.ins-footer-logo {
+		width: 215px;
+		text-align: center;
+		.logo-vector {
+			left: 0;
+			top: -22px;
+		}
+	}
+	.ins-footer-newslatter {
+		width: 100%;
+		max-width: 395px;
+		input {
+			width: 100%;
+			height: 55px;
+			border: none;
+			padding-left: 45px;
+			background-color: transparent;
+			border-bottom: 1px solid #EDEDED;
+			&::placeholder {
+				color: #817F7E;
+				font-size: 15px;
+				font-family: var(--meta-font);
+			}
+		}
+		button {
+			top: 0;
+			right: 0;
+			color: #fff;
+			border: none;
+			font-weight: 500;
+			position: absolute;
+			padding: 12px 30px;
+			transition: 500ms all ease;
+			font-family: var(--meta-font);
+			background-color: var(--theme-color);
+			&:hover {
+				color: #000;
+				background-color: var(--theme-color-2);
+			}
+		}
+	}
+}
+.ins-footer-instagram {
+	margin: 0px -25px;
+	li {
+		margin: 0px 12px;
+		a {
+			width: 100%;
+			display: block;
+			overflow: hidden;
+			position: relative;
+			img {
+				transform: scale(1.0);
+				transition: 500ms all ease;
+			}
+			&:before {
+				top: 0;
+				right: 0;
+				left: auto;
+				width: 0%;
+				z-index: 1;
+				content: '';
+				height: 100%;
+				position: absolute;
+				transition: 500ms all ease;
+				background-color: rgba(5, 98, 81, .7);
+			}
+			&:after {
+				left: 0;
+				right: 0;
+				top: 40%;
+				content: '';
+				width: 25px;
+				opacity: 0;
+				z-index: 2;
+				height: 25px;
+				margin: 0 auto;
+				position: absolute;
+				text-align: center;
+				transition: 500ms all ease;
+				transform: translateY(-50%);
+				background-image: url(../img/logo/insta.png);
+			}
+			&:hover {
+				&:before {
+					left: 0;
+					width: 100%;
+					right: auto;
+				}
+				&:after {
+					top: 50%;
+					opacity: 1;
+				}
+				img {
+					transform: scale(1.1);
+				}
+			}
+		}
+	}
+}
+.ins-footer-year {
+	padding-top: 40px;
+	p {
+		font-size: 60px;
+		font-weight: 500;
+		color: var(--theme-color-2);
+		i {
+			font-size: 28px;
+			color: #F44336;
+		}
+		span {
+			display: inline-block;
+			background-image: url(../img/gallery/insta3.png);
+			-webkit-background-clip: text;
+			font-family: "DM Sans", sans-serif;
+			-webkit-text-fill-color: transparent;
+		}
+	}
+}
+.ins-footer-menu-area {
+	padding: 60px 0px 55px;
+	.ins-footer-cta {
+		top: 50%;
+		right: 20px;
+		position: absolute;
+		transform: translateY(-50%);
+		.ins-footer-cta-icon {
+			margin-right: 15px;
+			i {
+				font-size: 30px;
+				color: var(--theme-color-2);
+			}
+		}
+		.ins-footer-cta-text {
+			span {
+				display: block;
+			}
+			.hd-title {
+				color: #828A8D;
+				font-size: 13px;
+			}
+			.hd-value {
+				color: #DD1D26;
+				font-size: 14px;
+				font-weight: 500;
+			}
+		}
+	}
+}
+.ins-footer-menu {
+	li {
+		margin: 0px 15px;
+		a {
+			color: #0F0F2D;
+			font-weight: 500;
+			position: relative;
+			padding: 0px 20px;
+			text-transform: capitalize;
+			font-family: 'Syne', sans-serif;
+			&:before {
+				top: 0;
+				left: 0;
+				top: -10px;
+				width: 0%;
+				content: '';
+				height: 38px;
+				position: absolute;
+				transform: skew(-20deg);
+				transition: 500ms all ease;
+				background-color: rgba(255, 185, 102, 0.23);
+			}
+			&:after {
+				top: -3px;
+				opacity: 0;
+				left: -10px;
+				content: "\f178";
+				font-weight: 400;
+				position: absolute;
+				color: var(--theme-color-2);
+				transform: rotate(-45deg);
+				transition: 500ms all ease;
+				font-family: "Font Awesome 5 Pro";
+			}
+			&:hover {
+				&:before {
+					width: 100%;
+				}
+				&:after {
+					opacity: 1;
+					left: -20px;
+				}
+			}
+		}
+	}
+}
+.ins-footer-copyright {
+	padding: 15px 20px 10px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	background-color: var(--theme-color-2);
+	.ins-footer-copyright-text {
+		color: #000;
+		font-weight: 500;
+		a {
+			color: #fff;
+		}
+	}
+	.ins-copy-right-menu {
+		li {
+			margin-left: 30px;
+			a {
+				color: #000;
+				font-weight: 500;
+			}
+		}
+	}
+}	
+.ins-footer-section {
+	overflow: hidden;
+}
+.ins-footer-menu {
+	margin-right: 100px;
+}	

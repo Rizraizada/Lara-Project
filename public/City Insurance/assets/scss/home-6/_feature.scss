@@ -1,0 +1,35 @@
+.ins-feature-scroll-section {
+	overflow: hidden;
+}
+.ins-feature-scroll-item {
+	margin: 25px 22px;
+	display: inline-block;
+	.ins-ft-scroll-area {
+		width: 365px;
+		height: 235px;
+		display: flex;
+		flex-wrap: wrap;
+		border-radius: 3px;
+		align-items: center;
+		justify-content: center;
+		border: 1px solid #DFE0E0;
+		.ins-ft-scroll-icon {
+			width: 100%;
+			margin-bottom: 25px;
+		}
+		.ins-ft-scroll-text {
+			width: 100%;
+			h3 {
+				color: #000;
+				font-size: 22px;
+				font-weight: 500;
+				padding-bottom: 10px;
+			}
+			p {
+				color: #6E6D79;
+				font-size: 18px;
+				font-family: 'Syne', sans-serif;
+			}
+		}
+	}
+}

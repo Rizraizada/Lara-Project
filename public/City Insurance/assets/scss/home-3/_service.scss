@@ -1,0 +1,121 @@
+.in-service-section-3 {
+	padding: 75px 0px 100px;
+	.in-section-title-3 {
+		padding-top: 25px;
+		p {
+			max-width: 350px;
+		}
+	}
+}
+.in-service-item-3 {
+	z-index: 1;
+	overflow: hidden;
+	border-radius: 3px;
+	margin-bottom: 30px;
+	padding: 55px 35px 30px;
+	background-color: rgb(255, 255, 255);
+	box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.05);
+	&:before {
+		bottom: 0;
+		right: 0;
+		width: 0%;
+		z-index: -1;
+		content: '';
+		height: 0%;
+		position: absolute;
+		background: linear-gradient( 130deg, rgb(1,94,234) 0%, rgb(0,192,250) 100%);
+		transition: 500ms all ease;
+	}
+	.inner-text {
+		h3 {
+			font-size: 24px;
+			font-weight: 700;
+			position: relative;
+			padding-bottom: 48px;
+			color: var(--black-color);
+			&:before {
+				top: 45px;
+				left: 0;
+				width: 50px;
+				height: 4px;
+				content: '';
+				border-radius: 10px;
+				position: absolute;
+				background: var(--base-color);
+			}
+		}
+		p {
+			transition: 500ms all ease;
+		}
+	}
+	.inner-icon-btn {
+		margin-top: 45px;
+		.inner-icon {
+			display: inline-block;
+			transition: 0.4s cubic-bezier(0.24, 0.74, 0.58, 1);
+			transition-delay: 0.5s;
+			i {
+				font-size: 55px;
+				@extend%gradiant-text;
+			}
+		}
+		.inner-btn {
+			a {
+				width: 40px;
+				height: 40px;
+				font-size: 18px;
+				border-radius: 100%;
+				background-color: #f0f3f9;
+				i {
+					display: inline-block;
+					@extend%gradiant-text;
+				}
+				&:hover {
+					i {
+						animation: toLeftFromRight 0.5s forwards;
+					}
+				}
+			}
+		}
+	}
+	&:hover {
+		&:before {
+			width: 100%;
+			height: 100%;
+		}
+		.inner-text {
+			h3 {
+				color: #fff;
+				&:before {
+					background: #fff;
+				}
+			}
+			p {
+				color: #fff;
+			}
+		}
+		.inner-icon-btn {
+			.inner-icon {
+				transform: rotateY(360deg);
+				i {
+					background-image: linear-gradient(to right, #fff, #fff);
+				}
+			}
+		}
+	}
+}
+.in-services-more-btn {
+	.service-btn-img {
+		overflow: hidden;
+		border-radius: 4px;
+		margin-bottom: 32px;
+	}
+	.services-btn-text {
+		margin: 0 auto;
+		max-width: 280px;
+		margin-bottom: 30px;
+	}
+	.in-btn-1 a {
+		padding: 16px 30px;
+	}
+}

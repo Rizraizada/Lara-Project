@@ -1,0 +1,39 @@
+.in-section-title-1 {
+	.sub-title {
+		font-size: 18px;
+		font-weight: 500;
+		margin-bottom: 15px;
+		display: inline-block;
+		@extend%gradiant-text;
+		&:before {
+			top: 12px;
+			width: 70px;
+			content: '';
+			height: 2px;
+			right: -80px;
+			position: absolute;
+			background-image: url(../img/logo/line.png);
+		}
+	}
+	h2 {
+		font-size: 42px;
+		font-weight: 700;
+		line-height: 1.238;
+		color: var(--black-color);
+	}
+}
+.in-btn-1 {
+	a {
+		color: #fff;
+		font-weight: 500;
+		padding: 16px 60px;
+		border-radius: 5px;
+		display: inline-block;
+		background: linear-gradient(90deg, #0163ea 0%, #00bcf9 50%, #0163ea);
+		background-size: 200%, 1px;
+		transition: all 200ms linear 0ms;
+		&:hover {
+			background-position: 120%;
+		}
+	}
+}

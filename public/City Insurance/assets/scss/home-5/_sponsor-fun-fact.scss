@@ -1,0 +1,134 @@
+.ins-sponsor-slider {
+	padding: 50px 30px;
+	.slick-prev, .slick-next {
+		display: none !important;
+	}
+	.ins-sponsor-item {
+		.sponsor-img {
+			height: 50px;
+			padding: 0px 15px;
+			align-items: center;
+			justify-content: center;
+			display: flex !important;
+		}
+	}
+}
+.ins-sponsor-area {
+	z-index: 2;
+	max-width: 1510px;
+	margin-left: 100px;
+	position: relative;
+	background-color: #FAF7F4;
+}
+.ins-fun-fact-img {
+	padding-top: 35px;
+}
+.ins-fun-fact-content-area {
+	z-index: 1;
+	top: -100px;
+	margin-left: 48px;
+	max-width: 1180px;
+	padding-top: 205px;
+	padding-left: 105px;
+	margin-bottom: -100px;
+	border-bottom-left-radius: 30px;
+	background-color: var(--theme-color);
+	&:before {
+		top: 0;
+		left: 0;
+		width: 100%;
+		z-index: -1;
+		content: '';
+		height: 100%;
+		position: absolute;
+		background-size: cover;
+		background-repeat: no-repeat;
+		border-bottom-left-radius: 30px;
+		background-image: url(../img/bg/dot-bg.png);
+	}
+}
+.ins-fun-fact-title {
+	padding-bottom: 55px;
+	.ins-fun-fact-subtitle {
+		color: #fff;
+		font-size: 14px;
+		font-weight: 700;
+		padding-bottom: 5px;
+		font-family: var(--meta-font);
+	}
+	h3 {
+		color: #fff;
+		font-size: 55px;
+		font-weight: 500;
+		span {
+			background-image: url(../img/bg/text-bg.png);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+		}
+	}
+}
+.ins-fun-fact-text-area {
+	max-width: 580px;
+}
+.ins-fn-feature-item {
+	width: 50%;
+	margin-bottom: 80px;
+	h3 {
+		color: #fff;
+		font-size: 20px;
+		font-weight: 600;
+		line-height: 24px;
+		position: relative;
+		display: inline-block;
+		padding-bottom: 10px;
+		text-transform: capitalize;
+		&:before {
+			top: -5px;
+			width: 8px;
+			content: '';
+			opacity: 0;
+			height: 8px;
+			right: -5px;
+			position: absolute;
+			transition: 500ms all ease;
+			background-color: var(--theme-color-2);
+		}
+	}
+	p {
+		max-width: 240px;
+		line-height: 28px;
+		color: rgba(255, 255, 255, 0.7);
+	}
+	&:hover {
+		h3 {
+			&:before {
+				opacity: 1;
+				right: -15px;
+			}
+		}
+	}
+}
+.ins-funfact-counter-item-area {
+	justify-content: end;
+}
+.ins-funfact-item {
+	width: 240px;
+	height: 295px;
+	h3 {
+		font-size: 70px;
+		font-weight: 700;
+		font-family: 'DM Sans', sans-serif;
+		-webkit-text-fill-color: transparent;
+		-webkit-text-stroke-width: 1px;
+		-webkit-text-stroke-color: rgba(255, 255, 255, 0.4);
+	}
+	p {
+		color: #FFFFFF;
+		font-weight: 700;
+		letter-spacing: 0.51em;
+	}
+	&:nth-child(2),
+	&:nth-child(3) {
+		background-color: #086a59;
+	}
+}

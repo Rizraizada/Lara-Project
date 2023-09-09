@@ -1,0 +1,20 @@
+.in-sponsor-section,
+.in-sponsor-section-2 {
+	padding: 75px 0px;
+	background-color: #f6fbfc;
+}
+.in-sponsor-section-2 {
+	background: var(--base-color);
+}
+.in-sponsor-item {
+	.inner-img {
+		img {
+			margin: 0 auto;
+		}
+	}
+}
+.in-sponsor-slider {
+	.slick-prev, .slick-next {
+		display: none !important;
+	}
+}

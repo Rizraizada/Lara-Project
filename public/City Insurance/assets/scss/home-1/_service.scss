@@ -1,0 +1,168 @@
+.in-service-section-1 {
+	overflow: hidden;
+	padding: 125px 0px 95px;
+}
+.in-service-top-content-1 {
+	padding-bottom: 68px;
+	.in-section-title-1 {
+		max-width: 500px;
+	}
+	.in-service-top-text {
+		max-width: 495px;
+		padding-top: 30px;
+		line-height: 1.647;
+	}
+}
+.in-service-title-1 {
+	padding: 10px 0px 0px 20px;
+	.inner-icon {
+		margin-bottom: 30px;
+		i {
+			line-height: 1;
+			font-size: 50px;
+			color: var(--main-color);
+		}
+	}
+	.inner-text {
+		max-width: 550px;
+		h3 {
+			font-size: 30px;
+			font-weight: 700;
+			padding-bottom: 20px;
+			color: var(--black-color);
+		}
+	}
+}
+.in-service-content-1 {
+	z-index: 1;
+	padding-bottom: 95px;
+	.in-service-btn-1 {
+		margin-left: 260px;
+	}
+	.service-img-1 {
+		top: 0;
+		left: -5px;
+		z-index: -1;
+		overflow: hidden;
+		img {
+			border-radius: 5px;
+		}
+	}
+}
+.in-service-item-wrap-1 {
+	padding-top: 50px;
+}
+.in-service-item-1 {
+	z-index: 1;
+	overflow: hidden;
+	border-radius: 5px;
+	margin-bottom: 30px;
+	padding: 40px 15px 38px;
+	background-color: #fff;
+	box-shadow: 0px 3px 29px 0px rgba(0, 0, 0, 0.05);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(../img/bg/ser-item-bg.jpg);
+	.inner-icon {
+		margin-bottom: 13px;
+		transition: 0.5s cubic-bezier(0.24, 0.74, 0.58, 1);
+		transition-delay: 0.5s;
+		i {
+			line-height: 1;
+			font-size: 45px;
+			display: inline-block;
+			color: var(--main-color);
+			transition: 500ms all ease;
+		}
+	}
+	.inner-text {
+		h3 {
+			font-size: 20px;
+			font-weight: 700;
+			position: relative;
+			display: inline-block;
+			color: var(--black-color);
+			&:before {
+				left: 0;
+				width: 0%;
+				right: 0;
+				height: 1px;
+				content: '';
+				bottom: -2px;
+				margin: 0 auto;
+				position: absolute;
+				background-color: #fff;
+				transition: 500ms all ease;
+				transition-delay: .6s;
+			}
+		}
+	}
+	&:before {
+		top: 0;
+		left: 0;
+		width: 0%;
+		content: '';
+		z-index: -1;
+		height: 100%;
+		position: absolute;
+		background-size: cover;
+		transition: 500ms all ease;
+		background-repeat: no-repeat;
+		background-image: url(../img/bg/ser-hv.jpg);
+	}
+	&:hover {
+		background-image: none;
+		&:before {
+			width: 100%;
+		}
+		.inner-icon {
+			transform: rotateY(360deg);
+			i {
+				color: #fff;
+			}
+		}
+		.inner-text {
+			h3 {
+				color: #fff;
+				&:before {
+					width: 100%;
+				}
+			}
+		}
+	}
+}
+.in-service-btn-1 {
+	margin-top: 15px;
+	a {
+		color: var(--black-color);
+		span {
+			font-weight: 500;
+			position: relative;
+			color: var(--main-color);
+			&:before {
+				left: 0;
+				right: 0;
+				bottom: 0;
+				width: 0%;
+				content: '';
+				height: 1px;
+				margin: 0 auto;
+				position: absolute;
+				transition: 500ms all ease;
+				background-color: var(--main-color);
+			}
+		}
+		&:hover {
+			span {
+				&:before {
+					width: 100%;
+				}
+			}
+		}	
+	}
+}
+.in-service-content-1_2 {
+	.service-img-1 {
+		right: -7px;
+	}
+}

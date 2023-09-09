@@ -1,0 +1,139 @@
+.in-footer-section {
+	padding-top: 100px;
+}
+.in-footer-widget {
+	.widget-title {
+		color: #fff;
+		font-size: 22px;
+		font-weight: 700;
+		padding-bottom: 40px;
+	}
+	.logo-widget {
+		padding: 45px 30px 65px;
+		border-radius: 5px;
+		background-color: #10212b;
+		.brand-logo {
+			margin-bottom: 20px;
+		}
+		.footer-text {
+			color: #fff;
+			padding-bottom: 40px;
+		}
+		.footer-social {
+			a {
+				z-index: 1;
+				color: #fff;
+				width: 40px;
+				height: 40px;
+				display: flex;
+				margin-right: 18px;
+				border-radius: 100%;
+				align-items: center;
+				position: relative;
+				justify-content: center;
+				border: 1px solid #fff;
+				&:before {
+					top: 0;
+					width: 100%;
+					content: '';
+					z-index: -1;
+					height: 100%;
+					position: absolute;
+					border-radius: 100%;
+					transform: scale(0);
+					background: var(--base-color);
+					transition: 500ms all ease;
+				}
+				&:hover {
+					border: 1px solid transparent;
+					&:before {
+						transform: scale(1.0);
+					}
+				}
+			}
+		}
+	}
+	.contact-widget {
+		padding-left: 20px;
+		.info-item {
+			margin-bottom: 15px;
+			&:last-child {
+				margin-bottom: 0;
+			}
+			.inner-icon {
+				width: 50px;
+				height: 50px;
+				margin-right: 20px;
+				border-radius: 100%;
+				background-color: #fff;
+				i {
+					font-size: 20px;
+					color: var(--main-color);
+				}
+			}
+			.inner-text {
+				color: #fff;
+				max-width: 180px;
+				line-height: 1.875;
+			}
+		}
+	}
+	.menu-widget {
+		margin-left: 30px;
+		li {
+			margin-bottom: 15px;
+			a {
+				color: #fff;
+				position: relative;
+				&:before {
+					top: 10px;
+					left: 0;
+					height: 2px;
+					width: 0px;
+					content: '';
+					position: absolute;
+					transition: 500ms all ease;
+					background-color: var(--main-color);
+				}
+				&:hover {
+					padding-left: 22px;
+					color: var(--main-color);
+					&:before {
+						width: 15px;
+					}
+				}
+			}
+		}
+	}
+	.newslatter-widget {
+		input {
+			width: 100%;
+			height: 50px;
+			color: #fff;
+			border-radius: 5px;
+			padding-left: 20px;
+			margin-bottom: 15px;
+			background-color: transparent;
+			border: 1px solid var(--main-color);
+			&::placeholder {
+				color: #cccccc;
+			}
+		}
+		button {
+			color: #fff;
+			width: 100%;
+			height: 50px;
+			border: none;
+			border-radius: 5px;
+			@extend%button-hover;
+		}
+	}
+}
+.in-footer-copyright-area {
+	.in-footer-copyright-text {
+		color: #fff;
+		width: 72%;
+		padding: 32px 0px;
+		border-top: 1px solid rgba(255, 255, 255, 0.2);
+	}
+}

@@ -1,0 +1,132 @@
+.in-portfolio-section-2 {
+	z-index: 2;
+	overflow: hidden;
+	padding-top: 120px;
+	&:before {
+		top: 0;
+		z-index: -1;
+		width: 100%;
+		content: '';
+		height: 465px;
+		position: absolute;
+		background-repeat: no-repeat;
+		background-image: url(../img/bg/port-bg.jpg);
+	}
+}
+.in-portfolio-top-content-2 {
+	.in-section-title-2 {
+		max-width: 480px;
+	}
+	.in-portfolio-title-text {
+		max-width: 510px;
+		padding-top: 35px;
+	}
+}
+.in-portfolio-content-2 {
+	margin: 0 -15px;
+	padding-top: 65px;
+}
+.in-portfolio-item {
+	overflow: hidden;
+	transition: 500ms all ease;
+	.inner-text {
+		left: -30px;
+		opacity: 0;
+		bottom: 35px;
+		padding: 30px;	
+		max-width: 305px;
+		background-color: #fff;
+		border-top-right-radius: 5px;
+		border-bottom-right-radius: 5px;
+		-webkit-transition: all 220ms linear 0ms;
+		-khtml-transition: all 220ms linear 0ms;
+		-moz-transition: all 220ms linear 0ms;
+		-ms-transition: all 220ms linear 0ms;
+		-o-transition: all 220ms linear 0ms;
+		transition: all 220ms linear 0ms;
+		span {
+			color: #333333;
+			font-size: 16px;
+			font-weight: 500;
+		}
+		h3 {
+			font-size: 22px;
+			font-weight: 700;
+			padding-top: 5px;
+			color: var(--black-color);
+			&:hover {
+				color: var(--main-color);
+			}
+		}
+		.more-btn {
+			top: 50%;
+			right: -20px;
+			transform: translateY(-50%);
+			a {
+				color: #fff;
+				width: 40px;
+				height: 40px;
+				border-radius: 100%;
+				background: linear-gradient(90deg, #0163ea 0%, #00bcf9 50%, #0163ea);
+				background-size: 200%, 1px;
+				transition: all 200ms linear 0ms;
+				&:hover {
+					background-position: 120%;
+				}
+			}
+		}
+	}
+	.inner-img {
+		overflow: hidden;
+		border-radius: 4px;
+		img {
+			transition: 500ms all ease;
+		}
+	}
+	&:hover {
+		.inner-text {
+			left: 0;
+			opacity: 1;
+		}
+		.inner-img {
+			img {
+				transform: scale(1.1);
+			}
+		}
+	}
+	
+}
+.in-portfolio-slider-2,
+.in-portfolio-slider-2_1 {
+	.slick-list {
+		overflow: visible;
+	}
+	.slick-slide {
+		-webkit-transition: 0.3s cubic-bezier(0.24, 0.74, 0.58, 1);
+		transition: 0.3s cubic-bezier(0.24, 0.74, 0.58, 1);
+		opacity: 0;
+	}
+	.slick-slide.slick-active {
+		opacity: 1;
+	}
+	.slick-prev, .slick-next {
+		display: none;
+	}
+	.slick-dots {
+		margin-top: 55px;
+		position: static;
+		li {
+			width: 7px;
+			height: 7px;
+			margin: 0px 5px;
+			transition: 500ms all ease;
+			background: var(--base-color);
+			button {
+				display: none;
+			}
+			&.slick-active {
+				width: 25px;
+			}
+		}
+	}
+}

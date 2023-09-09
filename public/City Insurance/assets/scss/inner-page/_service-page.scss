@@ -1,0 +1,33 @@
+.in-service-page-service-section-1  {
+	padding: 130px 0px;
+}
+.in-service-details-text-area {
+	padding-left: 30px;
+}
+.in-service-details-text-area {
+	padding-top: 15px;
+}
+.in-service-details-seection {
+	padding: 120px 0px 0PX;
+}
+.in-service-details-img {
+	overflow: hidden;
+	border-radius: 5px;
+}
+.in-service-details-list {
+	margin-top: 40px;
+	li {
+		padding-left: 25px;
+		margin-bottom: 18px;
+		position: relative;
+		&:before {
+			top: 0;
+			left: 0;
+			content: '\f058';
+			font-weight: 500;
+			position: absolute;
+			color: var(--main-color);
+			font-family: 'Font Awesome 5 Pro';
+		}
+	}
+}

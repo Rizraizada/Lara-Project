@@ -1,0 +1,110 @@
+.ins-insurance-category-section {
+	padding: 100px 0px 55px;
+	z-index: 1;
+	.side-shape1 {
+		top: 25%;
+		z-index: -1;
+	}
+	.side-shape2 {
+		z-index: -1;
+		right: 50px;
+		bottom: 100px;
+	}
+}
+.ins-insurance-category-text {
+	padding-top: 40px;
+}
+.ins-insurance-category-list {
+	margin-top: 45px;
+	li {
+		width: 50%;
+		float: left;
+		color: #313238;
+		font-size: 18px;
+		padding-left: 30px;
+		position: relative;
+		margin-bottom: 38px;
+		&:before {
+			top: 0;
+			left: 0;
+			color: #2DD12A;
+			content: '\f058';
+			font-weight: 300;
+			position: absolute;
+			font-family: 'Font Awesome 5 Pro';
+		}
+	}
+}
+.ins-category-btn {
+	a {
+		color: #000000;
+		font-weight: 500;
+		padding: 22px 32px 20px;
+		display: inline-block;
+		background-color: var(--theme-color-2);
+		i {
+			font-size: 18px;
+			margin-left: 13px;
+		}
+		&:hover {
+			color: #fff;
+			background-color: var(--theme-color);
+		}
+	}
+}
+.ins-category-btn-item-list {
+	width: 100%;
+	max-width: 600px;
+	overflow: hidden;
+	padding: 20px 70px;
+	border-radius: 45px;
+	background-color: #fbf7f4;
+	li {
+		color: #0F0F2D;
+		font-size: 20px;
+		font-weight: 600;
+		border-radius: 10px;
+		margin-bottom: 15px;
+		border: 1px solid #F5EDE5;
+		background-color: #FFFFFF;
+		font-family: 'Syne', sans-serif;
+		box-shadow: 0px 4px 12px 0px #00000005;
+		a {
+			width: 100%;
+			display: block;
+			padding: 25px 40px;
+			border-radius: 10px;
+			position: relative;
+			border: 1px solid transparent;
+			&:before {
+				opacity: 0;
+				top: 32px;
+				right: 50px;
+				font-size: 20px;
+				content: "\f178";
+				font-weight: 900;
+				position: absolute;
+				transform: rotate(-45deg);
+				color: var(--theme-color-2);
+				font-family: 'Font Awesome 5 Pro';
+				transition: 500ms all ease;
+			}
+			&:hover {
+				border-radius: 10px;
+				border: 1px solid var(--theme-color-2);
+				&:hover {
+					&:before {
+						opacity: 1;
+						right: 35px;
+					}
+				}
+			}
+		}
+		&:last-child {
+			margin-bottom: 0;
+		}
+		img {
+			margin-right: 45px;
+		}
+	}
+}

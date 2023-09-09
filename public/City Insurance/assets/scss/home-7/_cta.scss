@@ -1,0 +1,24 @@
+.in-sv-cta-section {
+	padding: 70px 0px 60px;
+	.in-sv-btn {
+		a {
+			color: #000000;
+			&:before {
+				background-color: #fff;
+			}
+			i {
+				color: #fff;
+			}
+		}
+	}
+}
+.in-sv-cta-text {
+	max-width: 610px;
+	h2 {
+		color: #fff;
+		font-size: 42px;
+		font-weight: 700;
+		line-height: 1.238;
+		letter-spacing: -1px;
+	}
+}

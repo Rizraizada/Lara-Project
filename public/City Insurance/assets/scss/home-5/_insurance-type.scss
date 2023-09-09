@@ -1,0 +1,33 @@
+.in-insurance-type-section {
+	padding: 60px 15px;
+	.type-shape1 {
+		top: 100px;
+		left: 40px;
+	}
+}
+.in-insurance-type-item {
+	li {
+		font-size: 100px;
+		font-weight: 500;
+		padding: 0px 5px;
+		font-family: 'Syne', sans-serif;
+		background-image: url(../img/about/ser1.jpg);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		&.center-type {
+			z-index: 1;
+			position: relative;
+			&:before {
+				top: 10px;
+				left: 0px;
+				z-index: -1;
+				width: 100%;
+				height: 100%;
+				content: '';
+				position: absolute;
+				background-repeat: no-repeat;
+				background-image: url(../img/shape/type-sh.png);
+			}
+		}
+	}
+}

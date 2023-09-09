@@ -1,0 +1,134 @@
+.in-sv-quote-section {
+	overflow: hidden;
+	padding: 120px 0px;
+}
+.in-sv-quote-content {
+	z-index: 1;
+	.in-sv-section-title {
+		max-width: 540px;
+		p {
+			max-width: 500px;
+		}
+	}
+	.in-sv-quote-img1 {
+		right: 100px;
+		z-index: -1;
+	}
+	.in-sv-quote-img2 {
+		top: 50px;
+		right: -110px;
+		background-color: rgb(173, 173, 173);
+		box-shadow: 0px 3px 40px 0px rgba(0, 0, 0, 0.22);
+	}
+	.in-sv-quote-img3 {
+		right: 0;
+		bottom: 0;
+		background-color: rgb(173, 173, 173);
+		box-shadow: 0px 3px 40px 0px rgba(0, 0, 0, 0.22);
+	}
+}
+.in-sv-quote-form-wrapper {
+	max-width: 800px;
+}
+.in-sv-get-quote-form {
+	margin-top: 55px;
+}
+.in-sv-get-quote-btn {
+	.nav-tabs {
+		border-bottom: 0;
+	}
+	.nav-tabs .nav-link {
+		color: #fff;
+		border: none;
+		font-size: 14px;
+		font-weight: 600;
+		border-radius: 0;
+		margin-bottom: 0;
+		margin-right: 15px;
+		padding: 10px 20px;
+		text-transform: uppercase;
+		background-color: var(--main-sv-color);
+	}
+	.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+		border: none;
+		background-color: var(--base-sv-color);
+	}
+	.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+		border: none;
+	}
+}
+.in-sv-contact-tab-area {
+	padding: 45px;
+	max-width: 700px;
+	background-color: var(--main-sv-color);
+	&:before {
+		top: 0px;
+		width: 0;
+		height: 0;
+		content: "";
+		right: -75px;
+		position: absolute;
+		border-right: 75px solid transparent;
+		border-top: 75px solid var(--main-sv-color);
+	}
+	.in-sv-contact-form {
+		margin: 35px -7px 0px;
+	}
+}
+.in-sv-contact-form-title-area {
+	.form-title {
+		h3 {
+			color: #fff;
+			font-size: 30px;
+			font-weight: 700;
+			padding-bottom: 10px;
+			letter-spacing: -1.5px;
+		}
+		p {
+			color: #fff;
+		}
+	}
+	.in-sv-contact-form {
+		input,select, .nice-select, button {
+			width: 100%;
+			height: 50px;
+			border: none;
+			max-width: 295px;
+			margin: 0px 7px;
+			padding-left: 15px;
+			margin-bottom: 15px;
+			background-color: #1d5d6c;
+			&::placeholder {
+				color: #fff;
+			}
+		}
+		.nice-select {
+			color: #fff;
+			font-size: 16px;
+			border-radius: 0;
+			line-height: 50px;
+			&:after {
+				top: 4px;
+				right: 25px;
+				border: none;
+				content: '\f078';
+				font-weight: 300;
+				transform: rotate(0);
+				font-family: 'Font Awesome 5 Pro';
+			}
+			.option {
+				color: #000;
+			}
+			.list {
+				width: 100%;
+			}
+		}
+		button {
+			color: #fff;
+			font-size: 15px;
+			font-weight: 500;
+			text-transform: uppercase;
+			background-color: var(--base-sv-color);
+		}
+	}
+}

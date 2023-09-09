@@ -1,0 +1,27 @@
+/*=========
+Font load
+===========*/
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&family=Play:wght@400;700&family=Syne:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,400;0,500;0,700;1,400;1,600&display=swap');
+%gradiant-text {
+	background-image: linear-gradient(to right,var(--gradiant-color-from),var(--gradiant-color-to));
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color:transparent;
+}
+%base-color {
+	background-image: linear-gradient(to right,var(--gradiant-color-from),var(--gradiant-color-to));
+}
+%button-hover {
+	background-size: 200%, 1px;	
+	background: -webkit-gradient(linear, left top, right top, from(#0163ea), color-stop(50%, #00bcf9), to(#0163ea));
+	background: linear-gradient(90deg, #0163ea 0%, #00bcf9 50%, #0163ea);
+	background-size: 200%, 1px;
+	-webkit-transition: all 200ms linear 0ms;
+	transition: all 200ms linear 0ms;
+	&:hover {
+		background-position: 120%;	
+	}
+}

@@ -1,0 +1,135 @@
+.in-service-section-2 {
+	z-index: 1;
+	overflow: hidden;
+	padding: 130px 0px;
+	.in-service-bg {
+		left: 0;
+		right: 0;
+		z-index: -1;
+		top: -160px;
+	}
+}
+.in-service-title-text {
+	max-width: 520px;
+	.in-service-title-desc {
+		padding-top: 25px;
+	}
+}
+.in-service-title-img {
+	max-width: 600px;
+	img {
+		border-radius: 5px;
+	}
+}
+.in-service-content-2 {
+	margin-top: 65px;
+	background-color: #fff;
+	box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.05);
+}
+.in-service-item-2 {
+	max-width: 380px;
+	padding: 50px 40px 40px;
+	&:before {
+		top: 0;
+		width: 1px;
+		height: 100%;
+		content: '';
+		right: -15px;
+		position: absolute;
+		background-color: #e5eaec;
+	}
+	.icon-bg {
+		top: 30px;
+		opacity: .1;
+		right: 30px;
+		i {
+			font-size: 50px;
+			line-height: .75;
+			@extend%gradiant-text;
+		}
+	}
+	.inner-text {
+		h3 {
+			font-size: 22px;
+			font-weight: 700;
+			padding-bottom: 12px;
+			color: var(--black-color);
+			&:hover {
+				color: var(--main-color);
+			}
+		}
+		p {
+			max-width: 235px;
+			padding-bottom: 38px;
+		}
+	}
+	.inner-icon-more-btn {
+		.inner-icon {
+			i {
+				font-size: 50px;
+				line-height: .75;
+				@extend%gradiant-text;
+			}
+		}
+		.more-btn {
+			z-index: 1;
+			width: 40px;
+			height: 40px;
+			position: relative;
+			border-radius: 100%;
+			background-color: #eff4f5;
+			&:before {
+				top: 0;
+				z-index: -1;
+				width: 100%;
+				height: 100%;
+				content: '';
+				transform: scale(0);
+				position: absolute;
+				border-radius: 100%;
+				transition: 500ms all ease;
+				background: var(--base-color);
+			}
+			a {
+				width: 100%;
+				display: block;
+				text-align: center;
+			}
+			i {
+				color: var(--block-color);
+			}
+		}
+	}
+	&:hover {
+		.inner-icon  {
+			animation: icon-bounce .8s ease-out infinite;
+		}
+		.inner-icon-more-btn {
+			.more-btn {
+				color: #fff;
+				&:before {
+					transform: scale(1.0);
+				}
+			}
+		}
+	}
+}
+.in-service-more-btn {
+	margin-top: 55px;
+	a {
+		color: #fff;
+		font-size: 14px;
+		font-weight: 500;
+		padding: 3px 12px;
+		margin-left: 10px;
+		border-radius: 4px;
+		text-transform: uppercase;
+		display: inline-block;
+		background: linear-gradient(90deg, #0163ea 0%, #00bcf9 50%, #0163ea);
+		background-size: 200%, 1px;
+		transition: all 200ms linear 0ms;
+		&:hover {
+			background-position: 120%;
+		}
+	}
+}

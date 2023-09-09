@@ -1,0 +1,104 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("../fonts/flaticon.ttf?7c14ff90e2c62c206f5ea0592421a89e") format("truetype"),
+    url("../fonts/flaticon.woff?7c14ff90e2c62c206f5ea0592421a89e") format("woff"),
+    url("../fonts/flaticon.woff2?7c14ff90e2c62c206f5ea0592421a89e") format("woff2"),
+    url("../fonts/flaticon.eot?7c14ff90e2c62c206f5ea0592421a89e#iefix") format("embedded-opentype"),
+    url("../fonts/flaticon.svg?7c14ff90e2c62c206f5ea0592421a89e#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-speedometer:before {
+    content: "\f101";
+}
+.flaticon-save-energy:before {
+    content: "\f102";
+}
+.flaticon-family-insurance:before {
+    content: "\f103";
+}
+.flaticon-home-insurance:before {
+    content: "\f104";
+}
+.flaticon-life-insurance:before {
+    content: "\f105";
+}
+.flaticon-life-insurance-1:before {
+    content: "\f106";
+}
+.flaticon-car:before {
+    content: "\f107";
+}
+.flaticon-business-and-finance:before {
+    content: "\f108";
+}
+.flaticon-check:before {
+    content: "\f109";
+}
+.flaticon-check-1:before {
+    content: "\f10a";
+}
+.flaticon-shield:before {
+    content: "\f10b";
+}
+.flaticon-car-accident:before {
+    content: "\f10c";
+}
+.flaticon-insurance:before {
+    content: "\f10d";
+}
+.flaticon-healthcare:before {
+    content: "\f10e";
+}
+.flaticon-employee:before {
+    content: "\f10f";
+}
+.flaticon-phone-call:before {
+    content: "\f110";
+}
+.flaticon-income:before {
+    content: "\f111";
+}
+.flaticon-insurance-1:before {
+    content: "\f112";
+}
+.flaticon-insurance-2:before {
+    content: "\f113";
+}
+.flaticon-play-button:before {
+    content: "\f114";
+}
+.flaticon-family:before {
+    content: "\f115";
+}
+.flaticon-privacy-policy:before {
+    content: "\f116";
+}
+.flaticon-gift-box:before {
+    content: "\f117";
+}
+.flaticon-car-rental:before {
+    content: "\f118";
+}
+.flaticon-classic-car:before {
+    content: "\f119";
+}
+.flaticon-lease:before {
+    content: "\f11a";
+}
+.flaticon-person:before {
+    content: "\f11b";
+}
+.flaticon-golf-cart:before {
+    content: "\f11c";
+}
